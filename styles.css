@@ -1,0 +1,89 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(160deg, rgb(246, 176, 217), rgba(25, 219, 229, 0.6));
+}
+
+.calc {
+  width: 20rem;
+  height: 26rem;
+  border-radius: 3%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(40deg, rgb(47, 47, 112), rgb(202, 33, 98));
+}
+
+.raw {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.output {
+  width: 75%;
+  padding: 0.5rem;
+  background: rgb(243, 215, 215);
+  border-radius: 0.7rem;
+  color: black;
+  text-align: right;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  border: 3px solid rgb(17, 223, 17);
+}
+
+.number:hover {
+  background: rgb(17, 223, 17);
+}
+
+.operator {
+  border: 3px solid rgb(23, 121, 233);
+}
+
+.operator:hover {
+  background: rgb(23, 121, 233);
+}
+
+.clear {
+  border: 3px solid red;
+}
+
+.clear:hover {
+  background: red;
+}
+
+.decimal {
+  border: 3px solid yellow;
+}
+
+.decimal:hover {
+  background: rgb(214, 204, 12);
+}
+
+.equal {
+  border: 3px solid orangered;
+}
+
+.equal:hover {
+  background: orangered;
+}
